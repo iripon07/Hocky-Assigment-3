@@ -41,6 +41,7 @@
               neutral: "rgba(19, 19, 24, 0.6)",
               "base-100": "#ffffff",
               info: "rgba(19, 19, 24, 0.5)",
+              social: "rgba(19, 19, 24, 0.03)",
             },
           },
         },
@@ -190,11 +191,11 @@
 
       <!-- Products Card Sections  -->
 
-      <section class="grid grid-cols-2 gap-6">
+      <section class="grid lg:grid-cols-2 grid-cols-1 gap-6">
         <!-- Product Card Item 1 -->
         <div
           style="border: 1px solid rgba(19, 19, 24, 0.1)"
-          class="rounded-2xl flex w-full"
+          class="rounded-2xl flex lg:flex-row flex-col w-full"
         >
           <img class="p-6" src="/Images/5.png" alt="" />
           <div class="flex justify-center items-center">
@@ -238,7 +239,7 @@
         <!-- Product Card Item 2 -->
         <div
           style="border: 1px solid rgba(19, 19, 24, 0.1)"
-          class="rounded-2xl flex w-full"
+          class="rounded-2xl flex lg:flex-row flex-col w-full"
         >
           <img class="p-6" src="/Images/6.png" alt="" />
           <div class="flex justify-center items-center">
@@ -282,7 +283,7 @@
         <!-- Product Card Item 3 -->
         <div
           style="border: 1px solid rgba(19, 19, 24, 0.1)"
-          class="rounded-2xl flex w-full"
+          class="rounded-2xl flex lg:flex-row flex-col w-full"
         >
           <img class="p-6" src="/Images/7.png" alt="" />
           <div class="flex justify-center items-center">
@@ -326,7 +327,7 @@
         <!-- Product Card Item 4 -->
         <div
           style="border: 1px solid rgba(19, 19, 24, 0.1)"
-          class="rounded-2xl flex w-full"
+          class="rounded-2xl flex lg:flex-row flex-col w-full"
         >
           <img class="p-6" src="/Images/8.png" alt="" />
           <div class="flex justify-center items-center">
@@ -370,7 +371,7 @@
         <!-- Product Card Item 5 -->
         <div
           style="border: 1px solid rgba(19, 19, 24, 0.1)"
-          class="rounded-2xl flex w-full"
+          class="rounded-2xl flex lg:flex-row flex-col w-full"
         >
           <img class="p-6" src="/Images/9.png" alt="" />
           <div class="flex justify-center items-center">
@@ -414,7 +415,7 @@
         <!-- Product Card Item 6 -->
         <div
           style="border: 1px solid rgba(19, 19, 24, 0.1)"
-          class="rounded-2xl flex w-full"
+          class="rounded-2xl flex lg:flex-row flex-col w-full"
         >
           <img class="p-6" src="/Images/10.png" alt="" />
           <div class="flex justify-center items-center">
@@ -455,7 +456,52 @@
           </div>
         </div>
       </section>
+
+      <!-- Client Questions Sections  -->
+
+      <section class="lg:mt-[100px] mt-10">
+        <hr class="border-dashed border-[2px]" />
+        <h1
+          class="font-extrabold lg:text-4xl text-primary text-center lg:mt-8 mt-6 lg:mb-6 mb-4 text-[22px]"
+        >
+          Client Questions
+        </h1>
+        <p
+          class="text-neutral lg:text-base text-sm font-medium text-center lg:mb-8 mb-6 px-[22px]"
+        >
+          Professional hockey club: Elite athletes compete in fast-paced games
+          <br />
+          on ice, showcasing skill, teamwork
+        </p>
+        <hr class="border-dashed border-[2px] lg:mb-[48px] mb-6" />
+      </section>
+
+      <section
+        class="bg-social lg:py-9 py-8 rounded-xl text-primary text-center"
+      >
+        <h4 class="text-2xl font-extrabold mb-6">Social Media</h4>
+        <div>
+          <i class="fa-brands fa-twitter w-6 h-6 mr-6"></i>
+          <i class="fa-brands fa-facebook-f w-6 h-6 mr-6"></i>
+          <i class="fa-brands fa-instagram w-6 h-6 mr-6"></i>
+          <i class="fa-brands fa-github w-6 h-6"></i>
+        </div>
+      </section>
     </main>
-    <footer class="mt-6"></footer>
+    <footer class="footer p-10 bg-primary text-base-content py-[100px]">
+      <div>
+        <h5>Get In Touch</h5>
+      </div>
+      <div>
+        <h6>Company</h6>
+      </div>
+      <div>
+        <h6>Support</h6>
+      </div>
+
+      <div>
+        <h6>Support</h6>
+      </div>
+    </footer>
   </body>
 </html>
